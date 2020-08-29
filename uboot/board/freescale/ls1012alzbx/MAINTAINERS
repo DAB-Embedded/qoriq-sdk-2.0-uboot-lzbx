@@ -1,0 +1,6 @@
+LS1012ALZBX BOARD
+M:	DAB-Embedded <info@dab-embedded.com>
+S:	Maintained
+F:	board/freescale/ls1012alzbx/
+F:	include/configs/ls1012alzbx.h
+F:	configs/ls1012alzbx_qspi_defconfig
