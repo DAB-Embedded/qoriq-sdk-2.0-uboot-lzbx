@@ -4,9 +4,9 @@
 
 Default configuration: ls1012alzbx_qspi_defconfig
 
-Script:
+Standalone U-boot build:
 ```
 make mrproper
-ARCH=arm make ls1012alzbx_qspi_defconfig
-CROSS_COMPILE=<path to your gcc compiler> ARCH=arm make
+ARCH=aarch64 make ls1012alzbx_qspi_defconfig
+CROSS_COMPILE=aarch64-linux-gnu- ARCH=aarch64 make -j 8
 ```
